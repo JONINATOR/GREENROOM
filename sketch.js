@@ -2,7 +2,7 @@ var video;
 
 
 function setup() {
-  canvas = createCanvas(640, 480, WEBGL);
+  canvas = createCanvas(windowWidth, windowHeight, WEBGL);
   canvas.id('p5canvas');
   canvas.position(0, 0);
   
